@@ -1,0 +1,32 @@
+.site-header {
+	background: lighten(#3498db, 30%);
+	h1 {
+  margin-bottom: 0;
+  @media #{$tablet} {
+    float: left;
+  }
+	 font-size: 1.6em;
+   & a {
+    font-weight: 700;
+    &:link, &:visited {
+      color: $baseTextColor;
+    }
+    &:hover, &:focus {
+      color: black;
+      text-decoration: none;
+    }
+   }
+	}
+}
+
+.site-nav {
+  @media #{$tablet} {
+    float: right;
+  }
+  a {
+    &:link, &:visited {
+      color: black;
+    }
+    font-size: 1.6em;
+  }
+}
