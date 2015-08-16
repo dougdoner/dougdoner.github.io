@@ -1,32 +1,24 @@
 .site-header {
 	background: lighten(#3498db, 30%);
-	h1 {
-  margin-bottom: 0;
-  @media #{$tablet} {
-    float: left;
-  }
-	 font-size: 1.6em;
-   & a {
-    font-weight: 700;
-    &:link, &:visited {
-      color: $baseTextColor;
-    }
-    &:hover, &:focus {
-      color: black;
-      text-decoration: none;
-    }
-   }
-	}
+}
+
+//header logo
+.header-logo {
+  position: relative;
+  top: 20px;
+  z-index: 10;
 }
 
 .site-nav {
-  @media #{$tablet} {
-    float: right;
-  }
-  a {
+  .trigger a {
+    line-height: 60px;
+    padding-right: 5px;
     &:link, &:visited {
       color: black;
     }
     font-size: 1.6em;
+    &.nav-head {
+    padding-right: 40px;
+  }
   }
 }

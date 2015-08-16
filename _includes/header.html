@@ -1,14 +1,14 @@
 <header class="site-header">
 
   <div class="wrapper">
-
-    <h1><a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a></h1>
     <nav class="site-nav">
       <a href="#" class="menu-icon">
       </a>
 
       <div class="trigger">
-        {% for page in site.pages %}
+        <a class="nav-head" href="/"><img class="header-logo" src="images/dougdoner-logo.png" alt="{{site.title}}"></a>
+        {% assign pages = site.pages | sort:"order"  %}
+        {% for page in pages %}
           {% if page.title %}
           <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
           {% endif %}

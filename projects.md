@@ -2,6 +2,7 @@
 layout: page
 title: Projects
 subTitle: Douglas Doner
+order: 1
 ---
 
 {% for project in site.data.projects %}
