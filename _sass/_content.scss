@@ -1,5 +1,21 @@
 //main content
 
-.main-content {
-	padding: 20px 10px 0 10px;
+.call-to-action {
+  background: lighten(#BDC3C7, 20%);
+  p {
+    padding: 90px 0;
+    color: black;
+    font-size: 1.9em;
+    font-weight: 400;
+    text-align: center;
+  } 
+}
+
+.experience {
+  padding: 20px 0 0 0;
+}
+
+.project-tile {
+  float: left;
+  height: 200px;
 }

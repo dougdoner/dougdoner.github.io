@@ -2,6 +2,22 @@
 layout: default
 ---
 
-<div class="home">
-  <p class="text">{{ site.description }}</p>
+<div class="call-to-action">
+  <div class="wrapper">
+    <p>{{ site.description }}</p>
+  </div>
+</div>
+
+<div class="experience">
+  <div class="wrapper">
+    <h2>{{ site.data.about.workCall }}</h2>
+    {% for project in site.data.projects %}
+      {% if project.name %}
+      <div class="project-tile columns-4">
+      <h2>{{project.name}}</h2>
+      <a class="page-link" href="{{ project.githubLink | prepend: site.baseurl }}">GitHub Link</a>
+      </div>
+      {% endif %}
+    {% endfor %}
+  </div>
 </div>

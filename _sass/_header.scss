@@ -29,10 +29,20 @@
 .nav-links {
   float: right;
   a {
+    padding: 0 5px;
+    display: block;
+    float: left;
     line-height: 60px;
     padding-right: 10px;
+    &:last-child {
+      border: 0;
+    }
     &:link, &:visited {
       color: white;
+    }
+    &:hover, &:focus {
+      background: darken(#D4D7DC, 50%);
+      transition: background .35s;
     }
     font-size: 1.6em;
     &.nav-head {
