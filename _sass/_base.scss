@@ -1,5 +1,5 @@
 /**
- * Reset some basic elements
+ * Resets
  */
 body, h1, h2, h3, h4, h5, h6,
 p, blockquote, pre, hr,
@@ -15,11 +15,10 @@ dl, dd, ol, ul, figure {
  */
 body {
     font-family: 'Raleway', sans-serif;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 1.5;
-    font-weight: 300;
+    font-weight: 400;
     color: $baseTextColor;
-    background-color: lighten(#ecf0f1, 3%);
     -webkit-text-size-adjust: 100%;
     box-sizing: border-box;
 }
@@ -43,23 +42,8 @@ ul, ol, dl, figure,
  */
 img {
     max-width: 100%;
-    vertical-align: middle;
+    height: auto;
 }
-
-
-
-/**
- * Figures
- */
-figure > img {
-    display: block;
-}
-
-figcaption {
-    font-size: 14px;
-}
-
-
 
 /**
  * Lists
@@ -82,7 +66,7 @@ li {
  * Headings
  */
 h1, h2, h3, h4, h5, h6 {
-    font-weight: 300;
+    font-weight: 700;
 }
 
 
@@ -152,7 +136,7 @@ pre {
  * Wrapper
  */
 .wrapper {
-    max-width: 800px;
+    max-width: 980px;
     margin-right: auto;
     margin-left: auto;
     @extend %clearfix;
