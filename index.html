@@ -13,10 +13,15 @@ layout: default
     <h2>{{ site.data.about.workCall }}</h2>
     {% for project in site.data.projects %}
       {% if project.name %}
-      <div class="project-tile columns-4">
-      <h2>{{project.name}}</h2>
-      <a class="page-link" href="{{ project.githubLink | prepend: site.baseurl }}">GitHub Link</a>
+      <div class="project-container columns-4">
+        <a class="page-link" href="{{ project.githubLink | prepend: site.baseurl }}">
+          <div class="project-tile">
+            <p>{{project.name}}</p>
+          </div>
+        </a>
+        <p class="skills">Skills: {{project.skills}}</p>
       </div>
+      
       {% endif %}
     {% endfor %}
   </div>

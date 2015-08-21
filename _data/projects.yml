@@ -2,7 +2,23 @@
   githubLink: https://github.com/theplanetmike/mineralschool
   description: Mineral School is a non-profit writer's and artist retreat in Mineral, Washington. My team and I developed this site in WordPress, and we used Grunt and LESS for productivity.
   siteLink: http://mineral-school.org
+  skills: HTML, CSS, JavaScript, WordPress
+  role: Front End Developer
 - name: Seattle Central W.I.S.E.
   description: Mineral School is a non-profit writer's and artist retreat in Mineral, Washington. My team and I developed this site in WordPress, and we used Grunt and LESS for productivity.
   githubLink: https://github.com/dougdoner/web170
   siteLink: http://designbydoug.com/wise-site
+  skills: HTML, CSS, JavaScript, WordPress
+  role: Front End Developer
+- name: Test
+  description: Mineral School is a non-profit writer's and artist retreat in Mineral, Washington. My team and I developed this site in WordPress, and we used Grunt and LESS for productivity.
+  githubLink: https://github.com/dougdoner/web170
+  siteLink: http://designbydoug.com/wise-site
+  skills: HTML, CSS, JavaScript, WordPress
+  role: Front End Developer
+- name: Test
+  description: Mineral School is a non-profit writer's and artist retreat in Mineral, Washington. My team and I developed this site in WordPress, and we used Grunt and LESS for productivity.
+  githubLink: https://github.com/dougdoner/web170
+  siteLink: http://designbydoug.com/wise-site
+  skills: HTML, CSS, JavaScript, WordPress
+  role: Front End Developer

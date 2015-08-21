@@ -8,14 +8,69 @@
     font-size: 1.9em;
     font-weight: 400;
     text-align: center;
-  } 
+  }
+  h1 {
+    padding: 40px 0;
+    color: black;
+    font-size: 1.9em;
+    font-weight: 400;
+  }
 }
 
 .experience {
   padding: 20px 0 0 0;
 }
 
-.project-tile {
+
+//projects tiles
+
+.experience .wrapper div:nth-of-type(3n) {
+  padding-right: 0;
+}
+
+.project-container {
+  overflow: hidden;
   float: left;
+  clear: right;
+  margin-bottom: 20px;
+  @media #{$tablet} {
+    padding-right: 20px;
+    margin-bottom: 40px;
+  }
+  div:nth-of-type(3n) {
+    margin-right: 0;
+  }
+  .skills {
+    padding-top: 5px;
+    font-size: .9em;
+  }
+}
+
+.project-tile {
   height: 200px;
+  width: 100%;
+  background: grey;
+  p {
+    transition: font-size .4s linear;
+    text-align: center;
+    line-height: 200px;
+  }
+  &:hover, &:focus {
+    p {
+      transition: font-size .25s ease;
+      font-size: 1.1em;
+    }
+  }
+}
+
+
+.post-content {
+  padding-top: 20px;
+}
+
+
+//portfolio page styles
+
+.work-container {
+  padding-bottom: 30px;
 }

@@ -13,7 +13,7 @@ $baseTextColor: darken(#7f8c8d, 20%);
 
 //breakpoints
 $phone: "all and (max-width: 600px)";
-$tablet: "all and (min-width: 800px)";
+$tablet: "all and (min-width: 600px)";
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
