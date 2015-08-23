@@ -1,26 +1,21 @@
 - name: Mineral School
   githubLink: https://github.com/theplanetmike/mineralschool
-  description: Mineral School is a non-profit writer's and artist retreat in Mineral, Washington. My team and I developed this site in WordPress, and we used Grunt and LESS for productivity.
+  description: I created a custom WordPress theme from visual design mockups. I created and customized Grunt build scripts for LESS style compilation. I used media queries and JQuery for a mobile responsive design. Agile methedologies were used to organize the timely execution of project goals.
   siteLink: http://mineral-school.org
   skills: HTML, CSS, JavaScript, WordPress
   role: Front End Developer
   imgClass: mineral-school
 - name: Seattle Central W.I.S.E.
-  description: Mineral School is a non-profit writer's and artist retreat in Mineral, Washington. My team and I developed this site in WordPress, and we used Grunt and LESS for productivity.
+  description: Seattle Central WISE is a custom WordPress theme, utilizing HTML and CSS for presentation, and JQuery for mobile navigation. I also used a WordPress plugin for an image gallery.
   githubLink: https://github.com/dougdoner/web170
   siteLink: http://designbydoug.com/wise-site
   skills: HTML, CSS, JavaScript, WordPress
   role: Front End Developer
   imgClass: wise
-- name: Test
-  description: Mineral School is a non-profit writer's and artist retreat in Mineral, Washington. My team and I developed this site in WordPress, and we used Grunt and LESS for productivity.
+- name: Mckenzie Lawncare
+  description: Mckenzie Lawncare is a static HTML website, using CSS media queries and JQuery to create a mobile responsive experience. I used JQuery for the mobile navigation, as well as PHP includes for repetitive content such as the header and footer.
   githubLink: https://github.com/dougdoner/web170
-  siteLink: http://designbydoug.com/wise-site
-  skills: HTML, CSS, JavaScript, WordPress
+  siteLink: http://designbydoug.com/web200/protosite
+  skills: HTML, CSS, JavaScript, PHP
   role: Front End Developer
-- name: Test
-  description: Mineral School is a non-profit writer's and artist retreat in Mineral, Washington. My team and I developed this site in WordPress, and we used Grunt and LESS for productivity.
-  githubLink: https://github.com/dougdoner/web170
-  siteLink: http://designbydoug.com/wise-site
-  skills: HTML, CSS, JavaScript, WordPress
-  role: Front End Developer
+  imgClass: lawncare
