@@ -2,7 +2,7 @@
 layout: page
 title: Portfolio
 subTitle: Douglas Doner
-order: 1
+order: 2
 ---
 
 <div class="columns-9">

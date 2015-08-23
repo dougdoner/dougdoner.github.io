@@ -24,6 +24,11 @@
 
 //projects tiles
 
+
+.page-link:hover, .page-link:focus {
+  text-decoration: none;
+}
+
 .experience .wrapper div:nth-of-type(3n) {
   padding-right: 0;
 }
@@ -33,12 +38,10 @@
   float: left;
   clear: right;
   margin-bottom: 20px;
+  padding-right: 0;
   @media #{$tablet} {
-    padding-right: 20px;
     margin-bottom: 40px;
-  }
-  div:nth-of-type(3n) {
-    margin-right: 0;
+    padding-right: 20px;
   }
   .skills {
     padding-top: 5px;
@@ -49,13 +52,22 @@
 .project-tile {
   height: 200px;
   width: 100%;
-  background: grey;
+  transition: background-size .4s linear, background-color .4s linear;
+  background-color: rgba(30, 34, 34, .2);
+  background-blend-mode: color;
+  
   p {
+    color: black;
     transition: font-size .4s linear;
     text-align: center;
     line-height: 200px;
   }
+
   &:hover, &:focus {
+    transition: background-size .4s ease, background-color .4s ease;
+    background-size: 100%;
+    background-color: rgba(30, 34, 34, .3);
+    
     p {
       transition: font-size .25s ease;
       font-size: 1.1em;
@@ -63,9 +75,23 @@
   }
 }
 
+//project tile background-images
+
+.mineral-school {
+  background: rgba(30, 34, 34, .2) no-repeat center/80% url("/images/mineralschool-logo-wa.png");
+}
+
+.wise {
+  background: rgba(30, 34, 34, .2) no-repeat center/80% url("/images/wise-bg.png");
+}
 
 .post-content {
-  padding-top: 20px;
+  padding: 20px 0 ;
+}
+
+.project-name {
+  font-weight: 700;
+  margin: 0;
 }
 
 

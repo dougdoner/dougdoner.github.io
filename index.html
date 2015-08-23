@@ -14,11 +14,11 @@ layout: default
     {% for project in site.data.projects %}
       {% if project.name %}
       <div class="project-container columns-4">
-        <a class="page-link" href="{{ project.githubLink | prepend: site.baseurl }}">
-          <div class="project-tile">
-            <p>{{project.name}}</p>
+        <a class="page-link" href="{{ project.siteLink | prepend: site.baseurl }}" target="_blank">
+          <div class="project-tile {{project.imgClass}}">
           </div>
         </a>
+        <p class="project-name">{{project.name}}</p>
         <p class="skills">Skills: {{project.skills}}</p>
       </div>
       
