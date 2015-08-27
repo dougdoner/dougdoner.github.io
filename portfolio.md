@@ -6,7 +6,8 @@ order: 2
 ---
 
 <div class="columns-9">
-{% for project in site.data.projects %}
+{% assign portfolio = site.portfolio | sort:"order"  %}
+{% for project in portfolio %}
   <div class="work-container">
 	{% if project.name %}
 	  <h2>{{project.name}}</h2>

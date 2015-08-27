@@ -11,3 +11,9 @@ github_username:  dougdoner
 
 # Build settings
 markdown: kramdown
+
+#collections settings
+collections:
+  portfolio:
+    output: true
+    permalink: /portfolio/:path/

@@ -11,10 +11,11 @@ layout: default
 <div class="experience">
   <div class="wrapper">
     <h2>{{ site.data.about.workCall }}</h2>
-    {% for project in site.data.projects %}
+    {% assign portfolio = site.portfolio | sort:"order"  %}
+    {% for project in portfolio %}
       {% if project.name %}
       <div class="project-container columns-4">
-        <a class="page-link" href="{{ project.siteLink | prepend: site.baseurl }}" target="_blank">
+        <a class="page-link" href="{{ project.url }}">
           <div class="project-tile {{project.imgClass}}">
           </div>
         </a>
