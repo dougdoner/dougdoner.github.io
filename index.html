@@ -11,7 +11,8 @@ layout: default
 <div class="experience">
   <div class="wrapper">
     <h2>{{ site.data.about.workCall }}</h2>
-    {% assign portfolio = site.portfolio | sort:"order"  %}
+    <div class="row">
+      {% assign portfolio = site.portfolio | sort:"order"  %}
     {% for project in portfolio %}
       {% if project.name %}
       <div class="project-container columns-4">
@@ -25,5 +26,7 @@ layout: default
       
       {% endif %}
     {% endfor %}
+    </div>
+    
   </div>
 </div>

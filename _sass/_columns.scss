@@ -2,6 +2,7 @@
 @mixin columns($columns) {
   // last number can be changed depending on the size of your grid, if you are using one. Second number in equation is to account for gutters
   width: percentage( ( ( ( 60 * $columns )  + ( 20 * $columns ) )  / 960) );
+  padding: 0 10px;
   @media #{$phone} {
     width: 100%;
   }

@@ -140,11 +140,16 @@ pre {
  * Wrapper
  */
 .wrapper {
-    max-width: 1000px;
+    max-width: 1020px;
     margin-right: auto;
     margin-left: auto;
-    padding: 0 10px;
     @extend %clearfix;
+    padding: 0 10px;
+}
+
+.row {
+    margin-left: -10px;
+    margin-right: -10px;
 }
 
 
